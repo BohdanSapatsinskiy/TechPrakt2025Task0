@@ -4,12 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введіть перше число:");
+            Console.Write("Введiть перше число:");
             int num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введіть друге число:");
+            Console.Write("Введiть друге число:");
             int num2 = int.Parse(Console.ReadLine());
             int sum = num1 + num2;
             Console.WriteLine($"{num1} + {num2} = {sum}");
+
         }
     }
 }

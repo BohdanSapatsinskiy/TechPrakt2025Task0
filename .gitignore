@@ -361,3 +361,13 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+# Ігнорування директорій
+bin/
+obj/
+.vs/
+.idea/
+
+# Ігнорування файлів
+temporary.txt
